@@ -12,7 +12,7 @@ const express = require("express");
 const Ably = require("ably");
 const p2 = require("p2");
 const app = express();
-const ABLY_API_KEY = process.env.ABLY_API_KEY;
+const ABLY_API_KEY = "w8V6Fg.tySuIg:CdYejAP7lHn7a_M8";//process.env.ABLY_API_KEY;
 const globalGameName = "main-game-thread";
 const GAME_ROOM_CAPACITY = 6;
 let globalChannel;
